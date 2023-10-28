@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.display-table {
+  margin: auto;
+}
+
+.display-table table.regid {
+  border-collapse: collapse;
+  width: 100%;
+}
+.display-table table.regid th,
+.display-table table.regid td {
+  text-align: left;
+  padding: 8px;
+  border: black 1px solid;
+}
+.display-table table.regid tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
